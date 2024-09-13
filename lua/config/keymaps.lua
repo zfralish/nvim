@@ -15,3 +15,6 @@ keymap("n", "<C-j>", "<C-w>h", { desc = "Go to Left Window", remap = true })
 keymap("n", "<C-k>", "<C-w>j", { desc = "Go to Lower Window", remap = true })
 keymap("n", "<C-l>", "<C-w>k", { desc = "Go to Upper Window", remap = true })
 keymap("n", "<C-'>", "<C-w>l", { desc = "Go to Right Window", remap = true })
+
+keymap("n", "<C-u>", "<C-u>zz", { noremap = true })
+keymap("n", "<C-d>", "<C-d>zz", { noremap = true })
